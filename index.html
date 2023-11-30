@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhi Dadhaniya - Web Developer Portfolio</title>
+  <!-- Include Tailwind CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <!-- Boxicons CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+  <nav class="bg-gray-800 fixed w-full z-50 top-0">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex justify-between h-16">
+        <div class="flex">
+          <div class="flex-shrink-0 flex items-center">
+            <a href="#home" class="text-white text-lg font-semibold hover:text-yellow-400">Abhi Dadhaniya</a>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="hidden md:flex items-center">
+            <a href="#home" class="text-white px-3 py-2 rounded-md hover:underline hover:text-yellow-400">Home</a>
+            <a href="#about" class="text-white px-3 py-2 rounded-md hover:underline hover:text-yellow-400">About</a>
+            <a href="#Skills" class="text-white px-3 py-2 rounded-md hover:underline hover:text-yellow-400">Skills</a>
+            <a href="#Education"
+              class="text-white px-3 py-2 rounded-md hover:underline hover:text-yellow-400">Education</a>
+            <a href="#projects"
+              class="text-white px-3 py-2 rounded-md hover:underline hover:text-yellow-400">Projects</a>
+            <a href="#Certificate"
+              class="text-white px-3 py-2 rounded-md hover:underline hover:text-yellow-400">Certificate</a>
+            <a href="#contact" class="text-white px-3 py-2 rounded-md hover:underline hover:text-yellow-400">Contact</a>
+          </div>
+          <div class="md:hidden flex items-center">
+            <button id="mobile-menu-toggle" class="text-white p-2 focus:outline-none">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="md:hidden hidden" id="mobile-menu">
+      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <a href="#home" class="block text-white px-3 py-2 rounded-md hover:underline hover:text-yellow-400">Home</a>
+        <a href="#about" class="block text-white px-3 py-2 rounded-md hover:underline hover:text-yellow-400">About</a>
+        <a href="#Skills" class="block text-white px-3 py-2 rounded-md hover:underline hover:text-yellow-400">Skills</a>
+        <a href="#Education"
+          class="block text-white px-3 py-2 rounded-md hover:underline hover:text-yellow-400">Education</a>
+        <a href="#projects"
+          class="block text-white px-3 py-2 rounded-md hover:underline hover:text-yellow-400">Projects</a>
+        <a href="#Certificate"
+          class="block text-white px-3 py-2 rounded-md hover:underline hover:text-yellow-400">Certificate</a>
+        <a href="#contact"
+          class="block text-white px-3 py-2 rounded-md hover:underline hover:text-yellow-400">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <header id="home">
+    <div class="bg-gray-900 py-16 px-4 lg:px-0">
+      <div class="container mx-auto flex flex-col gap-6 lg:flex-row items-center justify-between">
+        <!-- Image -->
+        <div class="lg:w-1/2 mb-8 lg:mb-0">
+          <img src="image/IMG_5471.JPG" alt="Abhi" class="rounded-lg shadow-md">
+        </div>
+
+        <!-- Text Content -->
+        <div class="lg:w-1/2 text-white text-center lg:text-left">
+          <h1 class="text-4xl lg:text-6xl font-bold mb-4">Abhi Dadhaniya</h1>
+          <p class="text-lg lg:text-xl mb-6">Web Developer</p>
+          <p class="text-gray-400">Your life is your responsibility - only you can shape it</p>
+          <div class="mt-8">
+            <a href="#contact" class="bg-gray-700 hover:bg-gray-800 text-white py-2 px-4 rounded-full">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+
+  <!-- About Section -->
+  <section class="py-16 bg-gray-100" id="about">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6 text-blue-400">About Me</h2>
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2 md:pr-8 mb-4 md:mb-0">
+          <img src="image/IMG_20231124_140136.jpg" alt="Profile" class="rounded-lg shadow-md" />
+        </div>
+        <div class="md:w-1/2">
+          <!-- <p class="text-lg leading-relaxed mb-4">
+            In an increasingly digital world, I'm always looking for any opportunities and challenges which make batter
+            human life.
+
+            So, I aspire to a valuable resource in an esteemed organization.
+          </p> -->
+          <p class="text-lg leading-relaxed mb-4">
+            Hello! I'm Abhi Dadhaniya, a passionate and aspiring full-stack
+            web developer with a focus on building intuitive and efficient web
+            applications.
+          </p>
+          <p class="text-lg leading-relaxed">
+            My goal is to continue exploring innovative technologies,
+            collaborating on exciting projects, and contributing my skills to
+            create meaningful digital solutions. I'm eager to embark on new
+            challenges, learn from experiences, and grow as a professional in
+            the field of full-stack development.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="py-16" id="Skills">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6 text-blue-400">Skills</h2>
+      <div class="grid grid-rows-3 gap-4">
+        <!-- Frontend Skills -->
+        <div class="bg-white shadow-md rounded-lg grid grid-rows-2 border-2 border-blue-400">
+          <h3 class="text-gray-400 text-3xl font-semibold border-b-2 h-12 my-auto pl-3">
+            Frontend
+          </h3>
+          <div class="pl-3 flex justify-around pb-4">
+            <div>
+              <img src="image/html.png" alt="html" class="w-24 h-24" />
+              <p class="text-gray-600 text-center">HTML</p>
+            </div>
+            <div>
+              <img src="image/css.png" alt="css" class="w-24 h-24" />
+              <p class="text-gray-600 text-center">CSS</p>
+            </div>
+            <div>
+              <img src="image/javascript.png" alt="javascript" class="w-24 h-24" />
+              <p class="text-gray-600 text-center">JavaScript</p>
+            </div>
+            <div>
+              <img src="image/react.png" alt="react" class="w-24 h-24" />
+              <p class="text-gray-600 text-center">React</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend Skills -->
+        <div class="bg-white shadow-md rounded-lg grid grid-rows-2 border-2 border-blue-400">
+          <h3 class="text-gray-400 text-3xl font-semibold border-b-2 h-12 my-auto pl-3">
+            Backend
+          </h3>
+          <div class="pl-3 flex justify-around pb-4">
+            <div>
+              <img src="image/nodejs.png" alt="node" class="w-24 h-24" />
+              <p class="text-gray-600 text-center">Node</p>
+            </div>
+            <div>
+              <img src="image/Express.png" alt="express" class="w-24 h-24" />
+              <p class="text-gray-600 text-center">Express</p>
+            </div>
+            <div>
+              <img src="image/postgresql.png" alt="postgresql" class="w-24 h-24" />
+              <p class="text-gray-600 text-center">Postgresql</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Other Skills -->
+        <div class="bg-white shadow-md rounded-lg grid grid-rows-2 border-2 border-blue-400">
+          <h3 class="text-gray-400 text-3xl font-semibold border-b-2 h-12 my-auto pl-3">
+            Other
+          </h3>
+          <div class="pl-3 flex justify-around pb-4">
+            <div>
+              <img src="image/git.png" alt="Git" class="w-24 h-24" />
+              <p class="text-gray-600 text-center">Git</p>
+            </div>
+            <div>
+              <img src="image/github2.png" alt="github" class="w-24 h-24" />
+              <p class="text-gray-600 text-center">Github</p>
+            </div>
+            <div>
+              <img src="image/postman.png" alt="Postman" class="w-24 h-24" />
+              <p class="text-gray-600 text-center">Postman</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="Education" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6 text-blue-400">Education</h2>
+
+      <!-- Education Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Education Card 1 -->
+        <div class="bg-white p-6 shadow-md rounded-lg border-2 border-blue-400 bg-gray-800">
+          <h3 class="text-xl font-semibold mb-2 text-blue-400">
+            Bachelor of Computer Applications
+          </h3>
+          <p class="text-white mb-4">Atmiya University (Rajkot,Gujarat)</p>
+          <p class="text-white mb-4">Graduated: 2020-2023</p>
+          <!-- Add more details if needed -->
+        </div>
+
+        <!-- Education Card 2 -->
+        <div class="p-6 shadow-md rounded-lg border-2 border-blue-400 bg-gray-800">
+          <h3 class="text-xl font-semibold mb-2 text-blue-400">H.S.C</h3>
+          <p class="mb-4 text-white">Tapovan Vidhyalay (Morbi,Gujarat)</p>
+          <p class="mb-4 text-white">Completed: 2018-2020</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6 text-blue-400">My Projects</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Project 1 -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+          <video height="200" autoplay controls>
+            <source src="video/piggame.mp4" type="video/mp4" />
+          </video>
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-2">Pig Game</h3>
+            <p class="text-gray-600">HTML,CSS And Javascript.</p>
+            <a href="https://github.com/AbhiDadhaniya34/PigGame" class="block mt-4 text-blue-500 hover:underline">View
+              Project</a>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="shadow-md rounded-lg overflow-hidden">
+          <video height="200" controls autoplay>
+            <source src="video/Banking.mp4" type="video/mp4" />
+          </video>
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-2">Bank Account</h3>
+            <p class="text-gray-600">HTML,CSS And Javascript.</p>
+            <a href="https://github.com/AbhiDadhaniya34/Bank" class="block mt-4 text-blue-500 hover:underline">View
+              Project</a>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+          <video height="200" controls autoplay>
+            <source src="video/E-commerce.mp4" type="video/webm" />
+          </video>
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-2">E-commerce</h3>
+            <p class="text-gray-600">React,Node,Postgresql and Tailwindcss</p>
+            <a href="https://github.com/AbhiDadhaniya34/E-commerce"
+              class="block mt-4 text-blue-500 hover:underline">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>image/
+  </section>
+
+  <!-- Certificate Section -->
+  <section id="Certificate" class="bg-gray-100 py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6 text-blue-400">Certificates</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <!-- Certificate 1 -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden border-2 border-blue-400">
+          <img src="image/htmlc.png" alt="Certificate 1" class="md\:scale-75 object-cover object-center" />
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-2">
+              Certificate of HTML and CSS
+            </h3>
+            <p class="text-gray-600">
+              This Course Instructors is Jhonas Schmedtmann.
+            </p>
+          </div>
+        </div>
+
+        <!-- Certificate 2 -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden border-2 border-blue-400">
+          <img src="image/javascriptc.png" alt="Certificate 2" class="md\:scale-75 object-cover object-center" />
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-2">
+              Certificate Of javascript
+            </h3>
+            <p class="text-gray-600">
+              This Course Instructors is Jhonas Schmedtmann.p>
+            </p>
+          </div>
+        </div>
+
+        <!-- Certificate 3 -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden border-2 border-blue-400">
+          <img src="image/Reactc.png" alt="Certificate 3" class="md\:scale-75 object-cover object-center" />
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-2">Certificate Of React</h3>
+            <p class="text-gray-600">
+              This Course Instructors is Jhonas Schmedtmann.
+            </p>
+          </div>
+        </div>
+
+        <!-- Certificate 4 -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden border-2 border-blue-400">
+          <img src="image/postgresqlc.png" alt="Certificate 3" class="md\:scale-75 object-cover object-center" />
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-2">
+              Certificate Of Postgresql
+            </h3>
+            <p class="text-gray-600">
+              This Course Instructors is David Joseph Katz.
+            </p>
+          </div>
+        </div>
+
+        <!-- Certificate 5 -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden border-2 border-blue-400">
+          <img src="image/nordc.jpg" alt="Certificate 3" class="md\:scale-75 object-cover object-center" />
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-2">Certificate Of Node</h3>
+            <p class="text-gray-600">
+              This Course Instructors is Jhonas Schmedtmann.
+            </p>
+          </div>
+        </div>
+
+        <!-- Certificate 6 -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden border-2 border-blue-400">
+          <img src="image/typescriptc.jpg" alt="Certificate 3" class="md\:scale-75 object-cover object-center" />
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-2">
+              Certificate Of TypeScript
+            </h3>
+            <p class="text-gray-600">
+              This Course Instructors is Maximillan Schwazmuller.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="bg-gray-900" id="contact">
+    <div class="container px-6 py-12 mx-auto">
+      <div>
+        <p class="text-3xl font-bold mb-6 text-blue-400">Contact us</p>
+      </div>
+      <div class="grid grid-cols-1 mt-10 md:grid-cols-2 lg:grid-cols-3">
+        <div>
+          <span class="inline-block p-3 text-blue-500 rounded-full bg-gray-800">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+            </svg>
+          </span>
+          <h2 class="mt-4 text-lg font-medium text-white">Email</h2>
+          <p class="mt-2 text-blue-400">abhidadhaniya34@gmail.com</p>
+        </div>
+
+        <div>
+          <span class="inline-block p-3 text-blue-500 rounded-full bg-gray-800">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M4 4v16h16V4H4zm5.84 14h-1.96v-6.47h1.96V18zM7.88 7.68c-.84 0-1.36-.56-1.36-1.28 0-.72.52-1.28 1.32-1.28s1.36.56 1.36 1.28c0 .72-.52 1.28-1.32 1.28zm10.24 8.32h-2.08v-3.52c0-.8-.28-1.36-.96-1.36-.52 0-.84.36-1.04.72-.04.12-.04.28-.04.44v3.72h-2.08s.04-8.4 0-9.28h2.08v1.24c.28-.44.8-.96 1.96-.96 1.44 0 2.56.96 2.56 3.04v5.96z" />
+            </svg>
+          </span>
+
+          <h2 class="mt-4 text-lg font-medium text-white">linkedin</h2>
+          <a class="mt-2 text-blue-400" href="https://www.linkedin.com/in/abhi-dadhaniya">abhi-dadhaniya</a>
+        </div>
+        <div>
+          <span class="inline-block p-3 text-blue-500 rounded-full bg-gray-800">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M13 2.5C7.25 2.5 2.5 7.25 2.5 13c0 4.53 2.92 8.36 7 9.69.51.1.69-.22.69-.49v-1.73c-2.82.61-3.42-1.32-3.42-1.32-.46-1.18-1.13-1.5-1.13-1.5-.92-.63.07-.62.07-.62 1.02.07 1.56 1.05 1.56 1.05.9 1.54 2.36 1.1 2.94.84.09-.65.35-1.1.64-1.35-2.24-.25-4.59-1.12-4.59-4.98 0-1.1.39-2 1.05-2.71-.1-.26-.45-1.28.1-2.66 0 0 .84-.27 2.75 1.03a9.57 9.57 0 012.5-.34 9.57 9.57 0 012.5.34c1.91-1.3 2.75-1.03 2.75-1.03.56 1.38.21 2.4.1 2.66.65.71 1.05 1.61 1.05 2.71 0 3.87-2.36 4.73-4.6 4.98.36.31.68.93.68 1.87v2.77c0 .27.18.6.7.49a10.73 10.73 0 007-9.69C21.5 7.25 16.75 2.5 13 2.5z" />
+            </svg>
+          </span>
+
+          <h2 class="mt-4 text-lg font-medium text-white">Github</h2>
+          <a class="mt-2 text-blue-400" href="https://github.com/AbhiDadhaniya34">AbhiDadhaniya</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-4">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2023 Abhi Dadhaniya. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const mobileMenuToggle = document.getElementById("mobile-menu-toggle");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    mobileMenuToggle.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+  </script>
+</body>
+
+</html>
